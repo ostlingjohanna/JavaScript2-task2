@@ -11,11 +11,6 @@ btnEl.classList.add("input")
 btnEl.innerText =">>>"
 todoContainer.appendChild(btnEl)
   
-const inputEl = document.createElement("input");
-  inputEl.type = "text";
-  inputEl.placeholder = "enter name"
-  inputEl.classList.add("input");
-
 }
 
 export {addinput}
